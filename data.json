@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-05-15",
+    "math": "**Pochodne:** CKE kocha zadania optymalizacyjne. Zapamiętaj: jeśli szukasz największego pola, liczysz pochodną i przyrównujesz do 0 ($f'(x)=0$). To zawsze pewne punkty!",
+    "physics": "**Grawitacja:** Prędkość kosmiczna $v = \\sqrt{GM/R}$. Zauważ, że masa satelity się skraca! CKE często pyta, jak zmieni się prędkość, gdy masa satelity wzrośnie 2x (odp: nie zmieni się).",
+    "polish": "**Lalka:** Wokulski to 'człowiek przełomu'. Łączy romantyczną miłość do Łęckiej z pozytywistycznym kultem nauki. Idealny argument do tematów o wewnętrznym konflikcie.",
+    "english": "**Inversion:** Chcesz zaimponować egzaminatorowi? Zamiast 'I have never seen', napisz 'Never have I seen'. Konstrukcja typu C1/C2 za darmo.",
+    "pdf_link": "https://arkusze.pl/matura-matematyka-poziom-rozszerzony-2023-maj/"
+  },
+  {
+    "date": "2026-05-16",
+    "math": "**Trygonometria:** Wzory redukcyjne to Twój przyjaciel. Jeśli kąt to $\\frac{\\pi}{2}$ lub $\\frac{3\\pi}{2}$, funkcja przechodzi w kofunkcję. Nie daj się złapać na znakach ćwiartek!",
+    "physics": "**Termodynamika:** I zasada: $\\Delta U = Q + W$. Uważaj na znaki! Jeśli gaz wykonuje pracę, $W$ jest ujemne. Jeśli to nad gazem wykonują pracę, $W$ jest dodatnie.",
+    "polish": "**Wesele:** Chochoł symbolizuje uśpienie narodu i niemożność czynu. 'Miałeś, chamie, złoty róg...' – cytat, który musisz znać na pamięć.",
+    "english": "**Vocabulary:** Używaj słowa *albeit* zamiast *although*. Brzmi bardziej profesjonalnie i akademicko.",
+    "pdf_link": "https://arkusze.pl/matura-fizyka-poziom-rozszerzony-2023-maj/"
+  },
+  {
+    "date": "2026-05-17",
+    "math": "**Wielomiany:** Twierdzenie o reszcie: reszta z dzielenia $W(x)$ przez $(x-a)$ to po prostu $W(a)$. Klasyk na każdym arkuszu rozszerzonym.",
+    "physics": "**Elektrostatyka:** Pole wewnątrz przewodnika wynosi zawsze 0. Cały ładunek ucieka na zewnątrz. To tzw. klatka Faradaya.",
+    "polish": "**Zbrodnia i kara:** Teoria Raskolnikowa o 'ludziach niezwykłych'. Czy cel uświęca środki? Klucz do tematów o moralności i sumieniu.",
+    "english": "**Grammar:** *I wish I had* vs *I wish I had had*. Pierwsze to marzenie o teraźniejszości, drugie to żal za przeszłością.",
+    "pdf_link": "https://arkusze.pl/matura-jezyk-polski-poziom-podstawowy-2023-maj/"
+  },
+  {
+    "date": "2026-05-18",
+    "math": "**Geometria analityczna:** Proste są prostopadłe, gdy iloczyn ich współczynników kierunkowych $a_1 \\cdot a_2 = -1$. CKE uwielbia okręgi wpisane w takie kąty.",
+    "physics": "**Optyka:** Załamanie światła $n_1 \\sin\\alpha = n_2 \\sin\\beta$. Pamiętaj: im większy współczynnik załamania $n$, tym mniejszy kąt i prędkość światła.",
+    "polish": "**Bogurodzica:** Najstarszy hymn, styl wysoki, archaizmy. Pamiętaj o motywie Deesis (pośrednictwo Maryi i Jana Chrzciciela).",
+    "english": "**Phrasal Verbs:** *Put up with* = tolerować. Idealne do wypracowania o trudnych sytuacjach.",
+    "pdf_link": "https://arkusze.pl/matura-jezyk-angielski-poziom-rozszerzony-2023-maj/"
+  }
+]
