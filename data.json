@@ -1,135 +1,18 @@
 [
   {
     "date": "2026-05-15",
-    "math": "**Pochodne i Optymalizacja:** CKE kocha zadania, w których trzeba wyznaczyć ekstremum (np. najmniejsze pole powierzchni). Kroki: 1. Wyznacz funkcję jednej zmiennej. 2. Policz pochodną. 3. Przyrównaj do 0. Pamiętaj o dziedzinie!",
-    "physics": "**Grawitacja:** Prędkość na orbicie kołowej $v = \\sqrt{GM/R}$. Zauważ, że masa satelity nie ma znaczenia. Jeśli promień orbity wzrośnie 4x, prędkość spadnie 2x. ",
-    "polish": "**Lalka:** Wokulski jako synteza epok. Romantyk (miłość do Łęckiej, próba samobójcza) i Pozytywista (nauka, praca u podstaw, handel). Klucz do tematów o buncie i idealiście.",
-    "english": "**Inversion:** Chcesz wyższego wyniku z pisania? Użyj inwersji stylistycznej: *Never have I seen such a beautiful place* zamiast zwykłego *I have never seen...*",
+    "math": "**Pochodne i Optymalizacja:** CKE kocha zadania, w których trzeba wyznaczyć ekstremum. Kroki: 1. Wyznacz funkcję jednej zmiennej. 2. Policz pochodną. 3. Przyrównaj do 0 ($f'(x)=0$). Pamiętaj o dziedzinie!",
+    "physics": "**Grawitacja:** Prędkość na orbicie kołowej $v = \\sqrt{GM/R}$. Zauważ, że masa satelity nie ma znaczenia. Jeśli promień orbity wzrośnie 4x, prędkość spadnie 2x.",
+    "polish": "**Lalka:** Wokulski jako synteza epok. Romantyk (miłość do Łęckiej) i Pozytywista (praca u podstaw). Klucz do tematów o buncie i idealiście.",
+    "english": "**Inversion:** Chcesz wyższego wyniku? Użyj inwersji: *Never have I seen such a beautiful place* zamiast *I have never seen...*",
     "pdf_link": "https://arkusze.pl/matura-matematyka-poziom-rozszerzony-2023-maj/"
   },
   {
     "date": "2026-05-16",
-    "math": "**Trygonometria:** Pamiętaj o 'wierszyku' o znakach funkcji w ćwiartkach: *W pierwszej wszystkie są dodatnie, w drugiej tylko sinus...* To oszczędza mnóstwo błędów przy wzorach redukcyjnych!",
-    "physics": "**Termodynamika:** I zasada: $\\Delta U = Q + W$. Jeśli gaz się rozpręża, to wykonuje pracę ($W < 0$). Jeśli go ściskasz, Ty wykonujesz pracę nad nim ($W > 0$). ",
-    "polish": "**Wesele:** Symbolizm ponad wszystko. Złoty róg (szansa na wolność), Czapka z piórami (prywata), Chochoł (marazm i uśpienie narodu).",
-    "english": "**Vocabulary:** Zamień nudne *very* na ciekawsze przymiotniki. Zamiast *very happy* użyj *elated*, zamiast *very tired* – *exhausted*.",
+    "math": "**Trygonometria:** Pamiętaj o znakach funkcji w ćwiartkach: *W pierwszej wszystkie są dodatnie, w drugiej tylko sinus...*",
+    "physics": "**Termodynamika:** I zasada: $\\Delta U = Q + W$. Jeśli gaz się rozpręża, to wykonuje pracę ($W < 0$).",
+    "polish": "**Wesele:** Symbolizm: Złoty róg (szansa na wolność), Czapka z piórami (prywata), Chochoł (marazm).",
+    "english": "**Vocabulary:** Zamień nudne *very* na ciekawsze przymiotniki. Zamiast *very happy* użyj *elated*.",
     "pdf_link": "https://arkusze.pl/matura-fizyka-poziom-rozszerzony-2023-maj/"
-  },
-  {
-    "date": "2026-05-17",
-    "math": "**Wielomiany:** Twierdzenie o reszcie: reszta z dzielenia wielomianu $W(x)$ przez dwumian $(x-a)$ jest równa $W(a)$. Jeśli $W(a)=0$, to $a$ jest pierwiastkiem!",
-    "physics": "**Elektrostatyka:** Prawo Coulomba $F = k \\frac{q_1 q_2}{r^2}$. Zwróć uwagę na podobieństwo do prawa powszechnego ciążenia Newtona. 
-
-[Image of Coulomb's law diagram]
-",
-    "polish": "**Zbrodnia i kara:** Teoria Raskolnikowa o ludziach niezwykłych, którzy mają prawo zabijać 'wszy' dla dobra ludzkości. Moralny upadek i odkupienie przez cierpienie.",
-    "english": "**Conditionals:** II tryb warunkowy to Twoje 'gdybanie' o teraźniejszości: *If I were you, I would study more*. Używamy *were* nawet przy *I/he/she*!",
-    "pdf_link": "https://arkusze.pl/matura-jezyk-polski-poziom-podstawowy-2023-maj/"
-  },
-  {
-    "date": "2026-05-18",
-    "math": "**Geometria Analityczna:** Odległość punktu od prostej. Wzór z wartością bezwzględną w liczniku. Bardzo często używany do sprawdzania, czy prosta jest styczna do okręgu ($d=r$).",
-    "physics": "**Optyka:** Załamanie światła (Prawo Snella). Światło przechodząc do ośrodka gęstszego (większe $n$) zawsze załamuje się 'do normalnej'. 
-
-[Image of Snell's law of refraction]
-",
-    "polish": "**Bogurodzica:** Archaizmy! Pamiętaj o wołaczu (*Bogurodzica Dziewica, Bogiem sławiena Maryja*). To tekst o charakterze modlitewnym i narodowym.",
-    "english": "**Phrasal Verbs:** *Look forward to* + końcówka **-ing**! To najczęstszy błąd. Piszemy: *I look forward to meeting you*, a nie *to meet*.",
-    "pdf_link": "https://arkusze.pl/matura-jezyk-angielski-poziom-rozszerzony-2023-maj/"
-  },
-  {
-    "date": "2026-05-19",
-    "math": "**Ciągi:** Ciąg arytmetyczny i geometryczny. Pamiętaj o zależności między trzema sąsiednimi wyrazami: w arytmetycznym środkowy to średnia arytmetyczna, w geometrycznym – kwadrat środkowego to iloczyn sąsiednich.",
-    "physics": "**Kinematyka:** Wykres $v(t)$. Pole pod wykresem prędkości od czasu to przebyta droga! Bardzo przydatne, gdy ruch nie jest jednostajnie zmienny. 
-
-[Image of velocity-time graph showing area as distance]
-",
-    "polish": "**Dziady cz. III:** Mesjanizm polski. Polska jako 'Chrystus narodów'. Widzenie księdza Piotra to fundament do tematów o męczeństwie i nadziei.",
-    "english": "**Passive Voice:** Strona bierna jest kluczowa w formalnych listach. Zamiast *They built the school*, napisz *The school was built*.",
-    "pdf_link": "https://arkusze.pl/matura-matematyka-poziom-rozszerzony-2022-maj/"
-  },
-  {
-    "date": "2026-05-20",
-    "math": "**Prawdopodobieństwo:** Metoda drzewka jest dobra, ale przy rozszerzeniu naucz się klasycznej definicji i kombinatoryki (symbol Newtona). Pamiętaj: $P(A) \\le 1$!",
-    "physics": "**Dynamika:** Zasady dynamiki Newtona. Pamiętaj, że tarcie zawsze działa przeciwnie do kierunku ruchu (lub zamierzonego ruchu). $T = f \cdot N$.",
-    "polish": "**Pan Tadeusz:** Epopeja narodowa. Pisana 'ku pokrzepieniu serc'. Kluczowe motywy: przyroda jako bohater, szlachta i rehabilitacja Jacka Soplicy.",
-    "english": "**Relative Clauses:** *Who* dla ludzi, *which* dla rzeczy. Jeśli chcesz brzmieć mądrzej, używaj *whom* po przyimkach, np. *The person to whom I spoke*.",
-    "pdf_link": "https://arkusze.pl/matura-fizyka-poziom-rozszerzony-2022-maj/"
-  },
-  {
-    "date": "2026-05-21",
-    "math": "**Logarytmy:** Pamiętaj o dziedzinie logarytmu ($a>0, a \neq 1, b>0$). Najważniejszy wzór na maturze to zamiana podstawy logarytmu.",
-    "physics": "**Ruch po okręgu:** Siła dośrodkowa $F = mv^2/r$. To nie jest 'dodatkowa' siła, to funkcja, którą pełni np. grawitacja lub tarcie. 
-
-[Image of centripetal force in circular motion]
-",
-    "polish": "**Kordian:** Winkelriedyzm jako odpowiedź na Mickiewiczowski mesjanizm. Kordian chce aktywnej walki, ale przegrywa z własnym strachem i wyobraźnią.",
-    "english": "**Reported Speech:** Kiedy zmieniasz mowę bezpośrednią na zależną, cofasz czas (*backshift*). *I am* zamienia się w *he was*.",
-    "pdf_link": "https://arkusze.pl/matura-jezyk-polski-poziom-podstawowy-2022-maj/"
-  },
-  {
-    "date": "2026-05-22",
-    "math": "**Liczby Zespolone (Ciekawostka):** Choć nie ma ich na maturze, wiedza o nich pomaga zrozumieć, dlaczego równania kwadratowe z ujemną deltą mają sens na studiach! $i^2 = -1$.",
-    "physics": "**Praca i Energia:** Zasada zachowania energii mechanicznej $E_k + E_p = const$. Działa tylko wtedy, gdy nie ma oporów ruchu (sił nie zachowawczych). 
-
-[Image of a pendulum showing energy conservation]
-",
-    "polish": "**Gloria Victis:** Nowela Orzeszkowej. Chwała zwyciężonym. Drzewa jako świadkowie historii opowiadają o bohaterstwie powstańców styczniowych.",
-    "english": "**Linking Words:** Używaj *Furthermore* (co więcej) i *However* (jednakże) zamiast prostych *And* i *But*. To podnosi poziom tekstu o klasę.",
-    "pdf_link": "https://arkusze.pl/matura-jezyk-angielski-poziom-rozszerzony-2022-maj/"
-  },
-  {
-    "date": "2026-05-23",
-    "math": "**Stereometria:** Kąt nachylenia krawędzi bocznej do podstawy. Zawsze szukaj trójkąta prostokątnego, który łączy wysokość bryły, krawędź i promień podstawy.",
-    "physics": "**Hydrostatyka:** Prawo Archimedesa. Siła wyporu jest równa ciężarowi wypartej cieczy. Jeśli ciało pływa, siła wyporu równoważy ciężar ciała.",
-    "polish": "**Przedwiośnie:** Trzy wizje Polski: szklane domy (utopia), reforma agrarna (Lulek) i powolne zmiany (Gajowiec). Cezary Baryka jako poszukiwacz drogi.",
-    "english": "**Idioms:** *Piece of cake* (bułka z masłem). Warto znać kilka idiomów, ale używaj ich tylko w nieformalnych tekstach (np. e-mail do kolegi).",
-    "pdf_link": "https://arkusze.pl/matura-matematyka-poziom-rozszerzony-2021-maj/"
-  },
-  {
-    "date": "2026-05-24",
-    "math": "**Nierówności:** Przy rozwiązywaniu nierówności kwadratowych zawsze rysuj parabolę! Pomoże Ci to uniknąć błędów przy odczytywaniu przedziałów.",
-    "physics": "**Fale mechaniczne:** Efekt Dopplera. Jeśli źródło dźwięku zbliża się do Ciebie, słyszysz dźwięk o wyższej częstotliwości. 
-
-[Image of the Doppler effect]
-",
-    "polish": "**Ferdydurke:** Gombrowicz i jego 'pupa', 'gęba' oraz 'sformowanie'. Ucieczka przed schematami, które narzuca nam społeczeństwo.",
-    "english": "**Formal Email:** Nigdy nie kończ formalnego listu przez *Bye!*. Użyj *Yours faithfully* (jeśli nie znasz nazwiska) lub *Yours sincerely* (jeśli znasz).",
-    "pdf_link": "https://arkusze.pl/matura-fizyka-poziom-rozszerzony-2021-maj/"
-  },
-  {
-    "date": "2026-05-25",
-    "math": "**Kombinatoryka:** Rozróżniaj permutacje (kolejność), wariacje (wybierasz i układasz) i kombinacje (tylko wybierasz skład). Symbol Newtona to Twój najlepszy kumpel.",
-    "physics": "**Magnetyzm:** Siła Lorentza $F = qvB \sin\alpha$. Określa ona ruch cząstki naładowanej w polu magnetycznym. Pamiętaj o regule lewej dłoni! 
-
-[Image of Lorentz force and left-hand rule]
-",
-    "polish": "**Tango:** Mrożek i problem upadku wartości. Kiedy panuje absolutna wolność, jedyną wartością staje się naga siła fizyczna (Edek).",
-    "english": "**Collocations:** Nie mówi się *do a mistake*, ale *make a mistake*. Takich par warto uczyć się na pamięć.",
-    "pdf_link": "https://arkusze.pl/matura-jezyk-polski-poziom-podstawowy-2021-maj/"
-  },
-  {
-    "date": "2026-05-26",
-    "math": "**Granice:** Granica ciągu przy $n$ dążącym do nieskończoności. Najprostsza metoda: wyciągnij najwyższą potęgę $n$ z mianownika przed nawias.",
-    "physics": "**Prąd zmienny:** Wartości skuteczne napięcia i natężenia. W gniazdku masz $230V$ – to jest właśnie wartość skuteczna, a nie maksymalna!",
-    "polish": "**Poezja Szymborskiej:** Ironia i dystans do świata. Motyw 'nieczytania' i małości człowieka wobec ogromu wszechświata.",
-    "english": "**Modals:** *Must have done* – używamy, gdy jesteśmy prawie pewni, że coś stało się w przeszłości. *He must have lost his keys*.",
-    "pdf_link": "https://arkusze.pl/matura-jezyk-angielski-poziom-rozszerzony-2021-maj/"
-  },
-  {
-    "date": "2026-05-27",
-    "math": "**Równanie stycznej:** Styczna do wykresu funkcji $f$ w punkcie $x_0$ ma współczynnik kierunkowy równy $f'(x_0)$. To połączenie geometrii z analizą. ",
-    "physics": "**Fizyka atomowa:** Model Bohra. Elektrony krążą po orbitach stacjonarnych i emitują foton tylko przy przeskoku na niższą orbitę $E = hf$.",
-    "polish": "**Proces (Kafka):** Labirynt urzędów i wszechobecna wina bez winy. Józef K. jako ofiara systemu, którego nie da się zrozumieć ani pokonać.",
-    "english": "**Articles:** *A/An* używamy przy pierwszej wzmiance, *The* kiedy i my, i słuchacz wiemy, o czym mowa. Ale uwaga na wyjątki geograficzne (np. *The Alps*, ale *Mount Everest*)!",
-    "pdf_link": "https://arkusze.pl/matura-matematyka-poziom-rozszerzony-2020-lipiec/"
-  },
-  {
-    "date": "2026-05-28",
-    "math": "**Funkcje:** Wyznaczanie dziedziny złożonych funkcji. Pamiętaj: mianownik $\neq 0$, liczba pod pierwiastkiem stopnia parzystego $\ge 0$, liczba logarytmowana $> 0$.",
-    "physics": "**Zjawisko fotoelektryczne:** Einstein wyjaśnił je, zakładając, że światło to strumień fotonów. Energia fotonu $hf = W + E_k$. Praca wyjścia $W$ zależy tylko od materiału.",
-    "polish": "**Sklepy cynamonowe:** Oniryzm (poetyka snu). Schulz zamienia nudne miasteczko w mityczną krainę pełną labiryntów i tajemnic.",
-    "english": "**Common Mistakes:** Unikaj kalkowania z polskiego. Nie mówimy *I am 18 years*, tylko *I am 18* lub *I am 18 years old*.",
-    "pdf_link": "https://arkusze.pl/matura-fizyka-poziom-rozszerzony-2020-lipiec/"
   }
 ]
