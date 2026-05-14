@@ -18,17 +18,25 @@ st.metric(label="Dni do wielkiego finału", value=f"{days_left} dni")
 # --- FUNKCJA REDDIT ---
 def get_reddit_meme(subreddit):
     try:
-        # Dodajemy losowy parametr, żeby oszukać cache Reddita
-        url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=30"
-        headers = {'User-agent': 'MaturaBot 0.2'}
-        res = requests.get(url, headers=headers)
+        # Nagłówki udające prawdziwą przeglądarkę
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=50"
+        res = requests.get(url, headers=headers, timeout=10)
+        res.raise_for_status() # Sprawdź czy nie ma błędu HTTP
+        
         data = res.json()
         posts = data['data']['children']
-        # Filtrujemy obrazki
-        images = [p['data']['url'] for p in posts if 'url' in p['data'] and p['data']['url'].endswith(('.jpg', '.png', '.jpeg'))]
-        return random.choice(images) if images else "https://via.placeholder.com/500x300.png?text=Brak+obrazkow+na+Reddit"
+        
+        # Szukamy tylko obrazków
+        images = [p['data']['url'] for p in posts if 'url' in p['data'] and any(p['data']['url'].endswith(ext) for ext in ['.jpg', '.png', '.jpeg'])]
+        
+        if images:
+            return random.choice(images)
+        return "https://via.placeholder.com/500x300.png?text=Brak+obrazkow+na+liście"
     except Exception as e:
-        return f"https://via.placeholder.com/500x300.png?text=Blad+polaczenia+z+Reddit"
+        return f"https://via.placeholder.com/500x300.png?text=Reddit+Error:+{str(e)[:20]}"
 
 # --- ŁADOWANIE PIGUŁKI ---
 def get_daily_pill():
@@ -65,21 +73,21 @@ if pill:
     
     st.link_button("📂 Otwórz Arkusze.pl", "https://arkusze.pl/")
 
-# --- SEKCJA MEMÓW (NAPRAWIONA) ---
+# --- SEKCJA MEMÓW (UPROSZCZONA) ---
 st.divider()
 st.subheader("🤖 Reddit Meme of the Day")
 
-sub = st.selectbox("Wybierz temat mema:", ["mathmemes", "physicsmemes", "ProgrammerHumor"])
+sub = st.selectbox("Wybierz temat:", ["mathmemes", "physicsmemes", "ProgrammerHumor"])
 
-# Inicjalizacja mema w pamięci sesji, jeśli go nie ma
-if 'current_meme' not in st.session_state:
-    st.session_state.current_meme = get_reddit_meme(sub)
-
-# Przycisk do losowania
+# Używamy st.button w prosty sposób
 if st.button("🔄 Losuj nowego mema"):
-    st.session_state.current_meme = get_reddit_meme(sub)
+    new_meme = get_reddit_meme(sub)
+    st.session_state['meme_url'] = new_meme
 
-# Wyświetlanie mema z pamięci sesji
-st.image(st.session_state.current_meme, use_container_width=True)
+# Inicjalizacja obrazka przy pierwszym wejściu
+if 'meme_url' not in st.session_state:
+    st.session_state['meme_url'] = get_reddit_meme(sub)
+
+st.image(st.session_state['meme_url'], use_container_width=True)
 
 st.caption("Aplikacja Matura 2027 | Reddit & Gemini")
