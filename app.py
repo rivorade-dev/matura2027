@@ -15,7 +15,7 @@ st.metric(label="Dni do wielkiego finału", value=f"{days_left} dni")
 # 2. Bezpieczne ładowanie danych
 def get_daily_pill():
     if not os.path.exists('data.json'):
-        return None, "Błąd: Brak pliku data.json w repozytorium!"
+        return None, "Błąd: Brak pliku data.json!"
     
     try:
         with open('data.json', 'r', encoding='utf-8') as f:
@@ -24,11 +24,9 @@ def get_daily_pill():
             for entry in data:
                 if entry['date'] == today_str:
                     return entry, None
-            return data[0], "Pokazuję pigułkę domyślną (brak wpisu na dzisiaj)."
-    except json.JSONDecodeError:
-        return None, "🚨 Błąd w pliku data.json! Sprawdź czy nie brakuje przecinka lub cudzysłowu."
+            return data[0], "Pokazuję pigułkę domyślną (brak wpisu na dziś)."
     except Exception as e:
-        return None, f"Wystąpił nieoczekiwany błąd: {e}"
+        return None, f"🚨 Błąd bazy danych: {e}"
 
 pill, error_msg = get_daily_pill()
 
@@ -54,8 +52,9 @@ if pill:
             st.write(pill.get("english", "Brak danych"))
 
     st.divider()
-    st.link_button("📂 Otwórz arkusz", pill.get("pdf_link", "https://cke.gov.pl"))
+    # Przycisk prowadzący zawsze do strony głównej
+    st.link_button("📂 Otwórz Arkusze.pl (Wybierz przedmiot)", "https://arkusze.pl/")
 else:
-    st.info("Dodaj więcej pigułek do pliku data.json, aby zobaczyć dzisiejsze materiały!")
+    st.info("Dodaj pigułki do pliku data.json!")
 
 st.caption("Aplikacja Matura 2027 | System: Gemini Engine")
